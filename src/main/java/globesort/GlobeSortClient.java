@@ -65,7 +65,7 @@ public class GlobeSortClient {
         System.out.println("Sort throughput: " + arraySize / response.getSortTime());
 
         System.out.println("Application throughput: " + arraySize / throughputTime);
-        System.out.println("Network throughput: " + (arraySize / ((throughputTime - response.getSortTime()) / 2));
+        System.out.println("Network throughput: " + (arraySize / ((throughputTime - response.getSortTime()) / 2)));
 
         System.out.println("Sorted array");
     }
